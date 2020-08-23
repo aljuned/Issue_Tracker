@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="board">
+            <h2 class="header">COVID-19 Cases in <span id="country"></span><img src="" id="flag"></h2>
+
+            <div class="row">
+                <div class="col-xl-4">
+                    <div class="card a">
+                        <i class="fas fa-tachometer-alt"></i>
+                        <h3>Active Cases</h3>
+                        <span id="active"></span>
+                    </div>
+                </div>
+
+                <div class="col-xl-4">
+                    <div class="card ca">
+                        <i class="fas fa-list"></i>
+                        <h3>Total Cases</h3>
+                        <span id="cases"></span>
+                    </div>
+                </div>
+
+                <div class="col-xl-4">
+                    <div class="card cr">
+                        <i class="fa fa-times-circle"></i>
+                        <h3>Critical Cases</h3>
+                        <span id="critical"></span>
+                    </div>
+                </div>
+
+                <div class="col-xl-4">
+                    <div class="card d">
+                        <i class="fa fa-times"></i>
+                        <h3>Total Death</h3>
+                        <span id="death"></span>
+                    </div>
+                </div>
+
+                <div class="col-xl-4">
+                    <div class="card r">
+                        <i class="fa fa-check-square"></i>
+                        <h3>Recovered Cases</h3>
+                        <span id="recovered"></span>
+                    </div>
+                </div>
+
+                <div class="col-xl-4">
+                    <div class="card t">
+                        <i class="fa fa-eye"></i>
+                        <h3>Total Test Done</h3>
+                        <span id="test"></span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>

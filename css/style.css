@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.board {
+    border-radius: 50px;
+    background-color: #f6f5f0;
+    padding: 50px;
+    box-shadow: 0px 10px 6px -8px rgba(0, 0, 0, 0.75);
+    margin-top: 100px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+img#flag {
+    margin-left: 10px;
+    width: 40px;
+    height: 25px;
+    margin-top: -7px;
+}
+
+.card {
+    background: #ccc;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: #fff;
+    padding: 20px;
+}
+
+.card.a {
+    background-color: #41a7ff;
+}
+
+.card.ca {
+    background: #ff3434;
+}
+
+.card.cr {
+    background: #32b336;
+}
+
+.card.d {
+    background: #d83f3f;
+}
+
+.card.r {
+    background: #ff0053;
+}
+
+.card.t {
+    background: #ffa501;
+}
+
+.card h3 {
+    padding: 20px 0px;
+}
+
+.card span {
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+.card i {
+    font-size: 30px;
+}
